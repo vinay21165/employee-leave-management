@@ -1,70 +1,158 @@
-# Getting Started with Create React App
+# 🏢 Employee Leave Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack web application to manage employee leave requests with a modern UI and scalable backend architecture.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Project Overview
 
-### `npm start`
+This project allows employees to:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* 🔐 Login securely
+* 📝 Submit leave requests
+* ✅ View confirmation of submitted leaves
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The application is built using a **React frontend** and a **Spring Boot backend**, following RESTful architecture and industry best practices.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 Tech Stack
 
-### `npm run build`
+### Frontend
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* React.js
+* Tailwind CSS
+* Axios
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Backend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Spring Boot (Java)
+* REST API
+* Maven
 
-### `npm run eject`
+### Database
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* MySQL (for storing leave data)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📂 Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+employee-leave-management/
+ ├── frontend/   # React Application
+ └── backend/    # Spring Boot Application
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ✨ Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Employee Login Authentication
+* Leave Application Form
+* API Integration (React ↔ Spring Boot)
+* Responsive UI (Mobile + Desktop)
+* Data stored in MySQL Database
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## ▶️ How to Run the Project
 
-### Analyzing the Bundle Size
+### 🔹 Frontend Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+cd frontend
+npm install
+npm start
+```
 
-### Making a Progressive Web App
+Runs on:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+http://localhost:3000
+```
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 🔹 Backend Setup
 
-### Deployment
+```bash
+cd backend
+mvn spring-boot:run
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Runs on:
 
-### `npm run build` fails to minify
+```
+http://localhost:8081
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+### 🔹 Database Setup (MySQL)
+
+```sql
+CREATE DATABASE leave_db;
+```
+
+Update credentials in:
+
+```
+backend/src/main/resources/application.properties
+```
+
+---
+
+## 🔗 API Endpoints
+
+| Method | Endpoint | Description          |
+| ------ | -------- | -------------------- |
+| POST   | `/login` | Authenticate user    |
+| POST   | `/leave` | Submit leave request |
+
+---
+
+## 📸 Screenshots
+
+### 🔹 Login Page
+![Login](frontend/public/screenshots/login.png)
+
+### 🔹 Leave Form
+![Leave](frontend/public/screenshots/leave-form-ui.png)
+
+### 🔹 Confirmation Page
+![Confirm](frontend/public/screenshots/confirmation.png)
+---
+
+## 💼 Key Highlights
+
+* Full-stack development (Frontend + Backend)
+* RESTful API design
+* Clean code structure (MVC architecture)
+* Real-world project suitable for interviews
+
+---
+
+## 👨‍💻 Author
+
+**Vinay Yadav**
+GitHub: https://github.com/vinay21165
+
+---
+
+## 🚀 Future Enhancements
+
+* JWT Authentication 🔐
+* Admin Dashboard 📊
+* Leave History Tracking 📁
+* Deployment (Cloud Hosting) 🌐
+
+---
+
+## ⭐ Conclusion
+
+This project demonstrates practical implementation of a full-stack system using modern technologies and is designed to be scalable, maintainable, and production-ready.
+
+---
+
+👉 If you like this project, don’t forget to ⭐ the repository!
