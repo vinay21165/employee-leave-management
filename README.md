@@ -115,13 +115,13 @@ backend/src/main/resources/application.properties
 ## 📸 Screenshots
 
 ### 🔹 Login Page
-![Login](frontend/public/screenshots/login.png)
+![Login](public/screenshots/login.png)
 
 ### 🔹 Leave Form
-![Leave](frontend/public/screenshots/leave-form-ui.png)
+![Leave](public/screenshots/leave-form-ui.png)
 
 ### 🔹 Confirmation Page
-![Confirm](frontend/public/screenshots/confirmation.png)
+![Confirm](public/screenshots/confirmation.png)
 ---
 
 ## 💼 Key Highlights
