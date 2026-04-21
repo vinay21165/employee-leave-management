@@ -30,6 +30,10 @@ The application is built using a **React frontend** and a **Spring Boot backend*
 * REST API
 * Maven
 
+###Server
+
+* Apache Tomcat(Server)
+
 ### Database
 
 * MySQL (for storing leave data)
