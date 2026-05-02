@@ -21,6 +21,7 @@ The application is built using a **React frontend** and a **Spring Boot backend*
 ### Frontend
 
 * React.js
+* JavaScript
 * Tailwind CSS
 * Axios
 
